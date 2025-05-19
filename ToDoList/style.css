@@ -1,0 +1,55 @@
+h1{
+    color: aqua;
+    margin-bottom: 20px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    padding: 10px;
+    width:250px;
+    font-size: 16px;
+    border:2px;
+    border-radius: 5px;
+    margin-right: 10;
+}
+
+button{
+    padding: 10px 15px;
+    font-size:16px;
+    background-color: rgb(124, 229, 224);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+ul{
+    margin-top: 30px;
+    width: 320px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li button{
+    background-color: blueviolet;
+    color:white;
+    cursor:pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+li button:hover{
+    background-color: blanchedalmond;
+}
